@@ -1,15 +1,15 @@
-import express from 'express';
+// import express from 'express';
 
-const PORT = 3000;
+// const PORT = 3000;
 
-const app = express();
+// const app = express();
 
-app.get('/', (req, res) => {
-  res.json({
-    message: 'Hello world!',
-  });
-});
+// app.get('/', (req, res) => {
+//   res.json({
+//     message: 'Hello world!',
+//   });
+// });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server is running on ${PORT}`);
+// });
